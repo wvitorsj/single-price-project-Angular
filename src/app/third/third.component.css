@@ -1,0 +1,21 @@
+.content-third {
+    background-color: #4abebd;
+    height: 46vh;
+    padding: 30px;
+  color: white;
+  border-bottom-right-radius: 10px;
+  }
+
+  p{
+    color: #7de7e4;
+  }
+  
+@media (max-width: 1118px) {
+  .content-third{ 
+    max-width: 375px;
+    min-width: 375px;
+  }
+ 
+}
+  
+  

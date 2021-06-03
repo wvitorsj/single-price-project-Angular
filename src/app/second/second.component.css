@@ -1,0 +1,28 @@
+.content-second {
+  background-color: #2bb3b1;
+  height: 46vh;
+  padding: 30px;
+  color: white;
+  border-bottom-left-radius: 10px;
+}
+
+button{
+  background-color: #bfdf32;
+  box-shadow: 2px 2px 2px 1px rgba(78, 78, 78, 0.288);
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(78, 78, 78, 0.288);
+  -moz-box-shadow: 2px 2px 2px 1px rgba(78, 78, 78, 0.288);
+}
+
+span{
+  font-size: small;
+  color: rgb(145, 214, 214);
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1118px) {
+  .content-second{ 
+    max-width: 375px;
+    min-width: 375px;
+  } 
+}
